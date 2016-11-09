@@ -1,5 +1,5 @@
-var player = function() {
-    
+define([], function() {
+   
     // private members
     var playerName = '';
     
@@ -21,4 +21,4 @@ var player = function() {
         getName: getName
     };
     
-}();
+});
