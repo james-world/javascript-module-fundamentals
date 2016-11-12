@@ -1,7 +1,7 @@
 import assignPlayerName from './player.js';
 import { printGame, calculateScore, getProblemCount } from './game.js';
 
-console.log('Starting game...');
+console.log('Built with Webpack and babel-loader');
 
 // add click handler to the start game button
 document.getElementById('startGame').addEventListener('click', function() {
