@@ -54,8 +54,20 @@
     <script>
         SystemJS.config({
             meta: {
-                'js/*' : {
+                'js/app.js' : {
                     format: 'cjs'
+                },
+                'js/player.js' : {
+                    format: 'cjs'
+                },
+                'js/scoreboard.js' : {
+                    format: 'cjs'
+                }
+            },
+            packages: {
+                'js': {
+                    format: 'amd',
+                    defaultExtension: 'js'
                 }
             }
         });
