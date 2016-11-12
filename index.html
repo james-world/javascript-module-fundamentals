@@ -50,17 +50,7 @@
     <div class="col-sm-offset-2 col-sm-10" id="scores"><h2>Scoreboard</h2><h4>No scores yet</h4></div>
     
     <!-- add script tags here -->
-    <script src="node_modules/systemjs/dist/system.js"></script>
-    <script>
-        SystemJS.config({
-            meta: {
-                'js/*' : {
-                    format: 'cjs'
-                }
-            }
-        });
-    
-        SystemJS.import('js/app.js');
-    </script>
+    <script src="build/bundle.js"></script>
+
 </body>
 </html>
